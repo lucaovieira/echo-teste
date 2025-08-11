@@ -9,7 +9,7 @@ metadata:
   name: echoserver
   namespace: teste-echo
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: echoserver
